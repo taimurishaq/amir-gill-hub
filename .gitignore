@@ -1,0 +1,9 @@
+# secrets and runtime data: never commit
+hub/config.php
+hub/data/*
+!hub/data/.htaccess
+hub/uploads/*
+!hub/uploads/.htaccess
+*.sqlite*
+secret.key
+.env
